@@ -10,7 +10,6 @@ export default function TotalSupplyUSDC() {
     functionName: "totalSupply",
   })
 
-  console.log(TotalSupply?.toString());
   return (
     <div>
     { TotalSupply?.toString() }

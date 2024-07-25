@@ -1,3 +1,4 @@
+import ContractOwner from "@/contract/contractOwner";
 import TotalSupplyUSDC from "@/contract";
 import Image from "next/image";
 
@@ -13,6 +14,12 @@ export default function Home() {
       </div>
       <div>
         This is the Total Supply of USDC: <TotalSupplyUSDC />
+      </div>
+      <div>
+        This is the balance of NFTT:
+      </div>
+      <div>
+        The Owner of the contract is: <ContractOwner />
       </div>
     </main>
   );
