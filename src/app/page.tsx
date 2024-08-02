@@ -1,6 +1,6 @@
-import ContractOwner from "@/contract/contractOwner";
-import TotalSupplyUSDC from "@/contract";
-import Image from "next/image";
+import ContractOwner from "@/components/ContractOnwer";
+import NewAgreement from "@/components/NewAgreement";
+import NFFTName from "@/components/NFTTName";
 
 export default function Home() {
   return (
@@ -13,14 +13,23 @@ export default function Home() {
         <w3m-button />
       </div>
       <div>
-        This is the Total Supply of USDC: <TotalSupplyUSDC />
-      </div>
-      <div>
-        This is the balance of NFTT:
+        NFT name is < NFFTName />
       </div>
       <div>
         The Owner of the contract is: <ContractOwner />
       </div>
+      <div>
+        {/* <w3m-network-button /> */}
+      </div>
+      <div>
+        <NewAgreement />
+      </div>
+      <hr />
+        <form>
+          <input aria-label="Recipient" placeholder="0xA0Cf…251e" />
+          <input aria-label="Amount (ether)" placeholder="0.05" />
+          <button>Send</button>
+        </form>
     </main>
   );
 }

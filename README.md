@@ -8,6 +8,12 @@ npx create-next-app@latest
 Then followin instructions from WalletConnect at:
 https://docs.walletconnect.com/appkit/next/core/installation
 
+
+Install WalletConnect :
+```shell
+pnpm add @web3modal/wagmi wagmi viem @tanstack/react-query
+```
+
 Make sure to define the environment variable by using:
 > From Command line:
 ```shell
@@ -23,6 +29,14 @@ npm run dev
 https://docs.walletconnect.com/web3modal/nextjs/about
 
 ## Checking some existing NextJS web3 projects:
+### 2024-07-26 - Using these for now
+https://youtu.be/3obzYjeoq7g?si=7pdt_4L22L1Ry-uM
+https://youtu.be/y-HI80v95Jg?si=6MnzwG8zNT2lQWh4
+https://youtu.be/Bn6lhw27pzU?si=Ptoj_RH6F2nM2VE_ - WAGMI Web3 Framework Tutorial in 3 mins
+	https://github.com/jamesbachini/wagmi-tutorial/blob/main/wagmi-tutorial/src/components/NameNFT.tsx - Nice code from this video
+https://1.x.wagmi.sh/examples/send-transaction - Very good page from Wagmi
+
+
 ### 2024-07-22
 https://www.youtube.com/watch?v=Bn6lhw27pzU good template using wagmi and NEXTJS
 
