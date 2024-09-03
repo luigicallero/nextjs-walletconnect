@@ -57,12 +57,6 @@ walletconnect - works with viem... not js but typescript conflitcting with react
 
 
 
-https://create-react-app.dev/docs/getting-started/
-
-npm init react-app tokalty-react
-
-
-
 
 Trying others:
 TATUM.io - Complejo de implementar
